@@ -65,13 +65,13 @@ export const saveMyMovie = (movie) => {
   }
 }
 
-// export const removeMyMovies = (id) => {
-//   return (dispatch) => {
-//     fetch("/movies" + id, {
-//       method: "DELETE",
-//       headers: {"Content-Type": "application/json"},
-//       body: JSON.stringify(movies)
-//     }).then(() => dispatch(loadMovieList(movies)))
+export const removeMyMovie = (id) => {
+  return (dispatch) => {
+    fetch("/movies" + id, {
+      method: "DELETE",
+      headers: {"Content-Type": "application/json"},
+      body: JSON.stringify(movies)
+    }).then(() => dispatch(loadMovieList(movies)))
 
-//   }
-// }
+  }
+}

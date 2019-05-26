@@ -19,6 +19,6 @@ const searchResults = (state = [], action) => {
 }
 
 export default combineReducers({
-  myMovieList,
-  searchResults
+  searchResults,
+  myMovieList
 })
