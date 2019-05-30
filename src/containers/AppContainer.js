@@ -7,7 +7,7 @@ const mapStateToProps = (state) => ({
   myMovieList: state.myMovieList
 })
 const mapDispatchToProps = (dispatch) => ({
-  loadMyMovieList: () => dispatch(loadMyMovieList())
+  loadMyMovieList: (data) => dispatch(loadMyMovieList(data))
 })
 
 export default connect(mapStateToProps, mapDispatchToProps)(App)

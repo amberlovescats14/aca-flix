@@ -1,24 +1,21 @@
-import { combineReducers } from 'redux'
+// import { combineReducers } from 'redux'
+import initialState from '../state'
 
-const myMovieList = (state = [], action) => {
+const rootReducer = (state = initialState, action) => {
   switch(action.type){
     case "MY_MOVIE_LIST_LOADED":
-    return [...state, action.movie]
-    default: 
-    return state
-  }
-}
-
-const searchResults = (state = [], action) => {
-  switch(action.type){
+      return {
+      ...state,
+      myMovieList: action.value
+    }
     case "SEARCH_RESULTS_LOADED":
-    return action.value;
-    default:
-    return state
+      return {
+      ...state,
+      searchResults: action.value
+    };
+    default: 
+      return state
   }
 }
 
-export default combineReducers({
-  searchResults,
-  myMovieList
-})
+export default rootReducer

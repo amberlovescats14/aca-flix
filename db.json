@@ -1,5 +1,73 @@
 {
-  "movies":[],
+  "movies": [
+    {
+      "vote_average": 6.6,
+      "vote_count": 4143,
+      "id": 39514,
+      "video": false,
+      "media_type": "movie",
+      "title": "RED",
+      "popularity": 13.03,
+      "poster_path": "/q2mwTRKrq1etP9S4SZVDIJq0wI2.jpg",
+      "original_language": "en",
+      "original_title": "RED",
+      "genre_ids": [
+        28,
+        12,
+        35,
+        80,
+        53
+      ],
+      "backdrop_path": "/1TFEtFxD1M9OvMGlGcSAR5Pg53I.jpg",
+      "adult": false,
+      "overview": "When his peaceful life is threatened by a high-tech assassin, former black-ops agent, Frank Moses reassembles his old team in a last ditch effort to survive and uncover his assailants.",
+      "release_date": "2010-10-13",
+      "_id": 1
+    },
+    {
+      "original_name": "Rose Red",
+      "id": 19654,
+      "media_type": "tv",
+      "name": "Rose Red",
+      "vote_count": 157,
+      "vote_average": 6.69,
+      "poster_path": "/p87ElSGzQr43vwnRJomhZgoNEw5.jpg",
+      "first_air_date": "2002-01-27",
+      "popularity": 8.516,
+      "genre_ids": [
+        9648,
+        10765
+      ],
+      "original_language": "en",
+      "backdrop_path": "/yVOsfgjn6Ptw4Wh9Tx4tZqw2yWy.jpg",
+      "overview": "Rose Red is a television miniseries scripted by horror novelist Stephen King. The series was premiered in the United States on ABC on January 27, 2002. The story involves a cavernous Seattle mansion called Rose Red, which is investigated by parapsychologist Dr. Joyce Reardon and a team of psychics.",
+      "origin_country": [
+        "US"
+      ],
+      "_id": 2
+    },
+    {
+      "original_name": "Red Oaks",
+      "id": 63130,
+      "media_type": "tv",
+      "name": "Red Oaks",
+      "vote_count": 24,
+      "vote_average": 7.6,
+      "poster_path": "/jGI54TyocVBOAAfPmq8sytJGxeG.jpg",
+      "first_air_date": "2014-08-28",
+      "popularity": 6.257,
+      "genre_ids": [
+        35
+      ],
+      "original_language": "en",
+      "backdrop_path": "/c5Awy42BrBsll6nemSGg0SwivYS.jpg",
+      "overview": "A coming-of-age comedy set in the \"go-go\" 80s  that is equal parts hijinks and heartfelt about a college student enjoying a last hurrah before summer comes to an end--and the future begins. \n\nDavid Myers, an assistant tennis pro at the Red Oaks Country Club in suburban New Jersey in 1985, is both reeling from his father's heart attack and conflicted about what major to declare in the fall. While there, he meets a colorful cast of misfit co-workers and wealthy club members including an alluring art student named Skye and her corporate raider father Getty.",
+      "origin_country": [
+        "US"
+      ],
+      "_id": 3
+    }
+  ],
   "posts": [
     {
       "id": 1,
